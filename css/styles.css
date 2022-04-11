@@ -15,7 +15,28 @@ body {
     color: var(--item-text-color);
 }
 
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+p, h1, h2, h3, h4, h5 ,h6 {
+    margin: 0;
+}
+
+ul, 
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
 /*  Header index */
+
+.header-logo-container {
+    padding-top: 24px;
+}
 
 .logo {
     font-family: 'Raleway';
@@ -71,10 +92,17 @@ a {
  /* Section main-lead */
 
 .main-text{
+    width: 1600px;
+    height: 600px;
+    margin: auto;
+
     background: var(--background);
+    outline: 1px solid red;
 }
 
 .main-heading {
+    padding: 200px 452px 30px 452px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -84,6 +112,10 @@ a {
     color: var(--white-text-color);
 }
 .main-btn {
+    width: 200px;
+    height: 50px;
+    margin-left: 700px;
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background-color: var(--active-text-color);
@@ -102,14 +134,17 @@ a {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
+    display: block;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-text-color);
 }
 
+
+
 .main-item-heading {
+    padding: 94px 0px 10px 0px;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -128,7 +163,11 @@ a {
 
 /* Section main-skills */
 
-.main-skills-heading, .main-team-heading {
+img {
+    display: block;
+}
+
+.main-heading-text {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -136,6 +175,14 @@ a {
     letter-spacing: 0.03em;
     color: var(--title-nav-text-color);
 }
+
+.main-skills-heading {
+    margin: 94px 0px 50px 0px;
+}
+.main-team-heading {
+    margin: 94px 0px 50px 0px;
+}
+    
 
 ul.main-img li {
     display: inline;
@@ -147,7 +194,17 @@ ul.main-img li {
     background-color: var(--background-color-team);
 }
 
+.main-team-item {
+    outline: 1px solid red;
+    width: 270px;
+    height: 368px;
+
+    text-align: center;
+}
+
 .main-team-fln {
+    padding: 30px 0px 10px 0px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -166,7 +223,14 @@ ul.main-img li {
 /* Footer index */
 
 .footer {
+    width: 1600px;
+    height: 252px;
+    margin: auto;
     background: var(--background);
+}
+
+.footer-logo-container {
+    padding-top: 60px;
 }
 
 .footer-logo-item {
@@ -174,6 +238,8 @@ ul.main-img li {
 }
 
 .footer-address {
+    padding-top: 20px;
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -189,7 +255,14 @@ ul.main-img li {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--footer-address-text-color);
+
+    display: block;
+    padding-top: 9px;
 }
+
+
+
+
 
 
 .footer-address-section>a:hover,
