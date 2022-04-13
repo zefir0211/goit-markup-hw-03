@@ -92,7 +92,7 @@ a {
  /* Section main-lead */
 
 .main-text{
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
     margin: auto;
 
@@ -223,7 +223,7 @@ ul.main-img li {
 /* Footer index */
 
 .footer {
-    width: 1600px;
+    max-width: 1600px;
     height: 252px;
     margin: auto;
     background: var(--background);
