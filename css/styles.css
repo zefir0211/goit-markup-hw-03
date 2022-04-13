@@ -95,13 +95,16 @@ a {
     max-width: 1600px;
     height: 600px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 
     background: var(--background);
     outline: 1px solid red;
 }
 
 .main-heading {
-    padding: 200px 452px 30px 452px;
+    max-width: 696px;
+    margin: 200px auto 30px auto;
 
     font-weight: 900;
     font-size: 44px;
@@ -114,7 +117,7 @@ a {
 .main-btn {
     width: 200px;
     height: 50px;
-    margin-left: 700px;
+    margin: 0 auto;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
