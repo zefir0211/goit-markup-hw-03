@@ -33,11 +33,17 @@ ol {
 
 /*  Header index */
 
+.header {
+    width: 1600px;
+    border-bottom: 1px solid #ECECEC;
+    margin: 0 auto;
+}
+
 .container-flex {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
+    
 }
 
 .header-logo-container {
@@ -119,7 +125,7 @@ a {
  /* Section main-lead */
 
 .main-text{
-    max-width: 1600px;
+    width: 1600px;
     height: 600px;
     margin: auto;
     display: flex;
@@ -294,7 +300,7 @@ ul.main-img li {
 /* Footer index */
 
 .footer {
-    max-width: 1600px;
+    width: 1600px;
     height: 252px;
     margin: auto;
     background: var(--background);
@@ -338,7 +344,7 @@ ul.main-img li {
 /*-----------------Portfolio section-----------------*/
 
 .conteiner-indent {
-    margin-bottom: 94px;
+    margin-top: 94px;
 }
 
 .portfolio-main-btn {
